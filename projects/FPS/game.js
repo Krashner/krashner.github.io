@@ -299,7 +299,7 @@ Player.prototype.update = function(controls, map, seconds) {
 
 //load level
 function LoadLevelData(mapName) {
-  $.getJSON("Old-Project/" + mapName + ".json", function(data) {
+  $.getJSON(mapName + ".json", function(data) {
     level = new Level(data);
     Start();
   });
