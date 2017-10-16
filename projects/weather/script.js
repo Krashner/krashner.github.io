@@ -6,7 +6,7 @@ $(document).ready(function() {
   var unitSymbol = "°F";
   var temperatureData;
 
-//for testing purposes
+//for testing purposes 
   /*
   $( "#slider" ).slider({
       min: -40,
