@@ -1,0 +1,167 @@
+body {
+  min-height: 1500px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  background-color: #e2e2e2;
+  color: #555;
+  min-width: 350px;
+}
+
+#nav {
+}
+
+.navbar-inverse {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+#navbar-container {
+  max-width: 1024px;
+  margin: auto;
+  background-color: #222;
+  border-color: #080808;
+}
+
+#wrapper {
+  max-width: 1024px;
+  -moz-box-shadow: 0px 0px 225px 30px #333;
+  -webkit-box-shadow: 0px 0px 225px 30px #333;
+  box-shadow: 0px 0px 225px 30px #333;
+}
+
+@media (min-width: 992px) {
+  .col-md-5 {
+    text-align: left;
+  }
+}
+
+ul {
+  float: right;
+  display: flex !important;
+}
+
+#about-content{
+  display: table;
+}
+
+.link-buttons{
+  display: table-row;
+}
+
+
+#contact-content {
+  width: 100%;
+  display: table;
+  /*display: inline-flex;*/
+  margin: auto;
+}
+
+@-moz-document url-prefix() {
+  #contact-content {
+    display: inline-flex !important;
+  }
+}
+
+#contact-content-row {
+  margin: auto;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.section {
+  min-height: 300px;
+  padding: 20px 50px 20px 50px;
+}
+
+.section-title {
+  margin: 0px;
+  padding: 10px 20px 10px 20px;
+  background-color: #333;
+  color: white;
+}
+
+.section-title-text {
+  margin: 0px;
+  padding: 0 10px 0 10px;
+  display: inline-block;
+  background-color: #333;
+  position: sticky;
+  z-index: 1;
+}
+
+.section-title-hr {
+  margin: 0;
+  border-top-width: 2px;
+  position: relative;
+  bottom: -22px;
+}
+
+.sections-dummy {
+  padding: 50px 0px 0px 0px;
+  height: 0px;
+}
+
+#profile-picture {
+  border-radius: 50%;
+  height: auto;
+  max-width: 200px;
+}
+
+.profile-picture-col {
+  margin-bottom: 20px;
+}
+
+#dummy-top {
+  background-color: #222222;
+}
+
+#dummy-bottom {
+  background-color: #222222;
+}
+
+
+
+#profile-picture {
+  margin: 0px;
+  vertical-align: middle;
+}
+
+.thumbnail {
+  padding: 0px;
+  background-color: #333;
+}
+
+.thumbnail > p {
+  padding-top: 0px;
+  margin: 0px;
+}
+
+.thumbnail .caption {
+  font-size: 12px;
+  color: white;
+}
+.portfolio-img-bg {
+  background-color: black;
+}
+
+.portfolio-img {
+  width: 100%;
+  opacity: 1;
+}
+
+.portfolio-img:hover {
+  opacity: .5;
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.hr-no-margin {
+  //margin:5px;
+}
+
+.vertical-btn {
+  margin: 10px 0px 10px 0px;
+}
