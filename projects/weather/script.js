@@ -3,7 +3,7 @@ $(document).ready(function() {
   var temperature = document.getElementById("temperature-text");
   var units = document.getElementById("temperature-units");
   var currentUnits = "us";
-  var unitSymbol = "캟";
+  var unitSymbol = "째F";
   var temperatureData;
 
 //for testing purposes
@@ -22,7 +22,7 @@ $(document).ready(function() {
 
   $("#change-units").on("click", function() {
     currentUnits = currentUnits == "us" ? "uk" : "us";
-    unitSymbol = currentUnits == "us" ? "캟" : "캜";
+    unitSymbol = currentUnits == "us" ? "째F" : "째C";
     if(temperatureData){
       updateDisplay(temperatureData.currently.temperature);
     }
@@ -36,7 +36,7 @@ $(document).ready(function() {
   }
 
   function getLocation() {
-    unitSymbol = currentUnits == "us" ? "캟" : "캜";
+    unitSymbol = currentUnits == "us" ? "째F" : "째C";
 
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(successPosition, failedPosition);
