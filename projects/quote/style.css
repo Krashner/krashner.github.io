@@ -1,0 +1,61 @@
+html, body {
+  height: 100%;
+  background-color: #333;
+}
+
+.quote-box {
+  background-color: white;
+  padding: 30px;
+  margin: auto;
+  border-radius: 4px;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.quote-text {
+  display: inline;
+  font-weight: bold;
+}
+
+.quote-author {
+  width: 100%;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.quote-box-row {
+  width: 100%;
+}
+
+p {
+  display: inline;
+  margin: 0px;
+  padding: 0 5px 0 5px;
+}
+
+.button, .button:focus {
+  color: white;
+  outline: none;
+  box-shadow: none;
+  background-color: #333;
+  opacity: 1;
+  height: 40px;
+  min-width: 40px;
+  border-radius: 4px;
+  border: 0px;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.quotes{
+  display :inline;
+}
+.fa-quote-left{
+  margin-right: 5px;
+}
+
+.fa-quote-right{
+  margin-left: 5px;
+}
