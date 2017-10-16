@@ -1,0 +1,58 @@
+html, body {
+  height: 100%;
+  background-color: #222;
+}
+
+.col {
+  /*this is for IE's nonsense*/
+  -ms-flex-preferred-size: auto;
+}
+.text-row {
+  margin: 0;
+  width: 100%;
+}
+.temps {
+  width: 60px;
+  padding: 0;
+}
+.box {
+  border-radius: 4px;
+  margin: auto;
+  background-color: white;
+  padding: 5px;
+  min-width: 145px;
+}
+
+p {
+  display: inline;
+  font-weight: bold;
+  font-size: 50px;
+  margin: 0;
+}
+
+#temperature-fa {
+}
+
+#slider {
+  margin-top: 5px;
+}
+.button, .button:focus {
+  width: 100%;
+  border-style: none;
+  background-color: #0574A2;
+  color: white;
+  font-weight: bold;
+  font-size: x-large;
+  border-radius: 4px;
+  height: 100%;
+  opacity: 1;
+  box-shadow: none;
+  outline: none;
+}
+.button:hover {
+  opacity: 0.8;
+}
+.button:active {
+  opacity: 1;
+  background-color: #045c81;
+}
