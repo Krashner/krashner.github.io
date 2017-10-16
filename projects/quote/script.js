@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function() { 
   changeBG();
   var colorIndex = 0;
   getQuote();
@@ -31,7 +31,7 @@ $(document).ready(function() {
       success: function(data) {
         var post = data[0];
         $(".quote-text").html(leftQuote + $(post.content).text() + rightQuote);
-        $(".quote-author").html("– " + post.title);
+        $(".quote-author").html("â€“ " + post.title);
       },
       cache: false
     });
