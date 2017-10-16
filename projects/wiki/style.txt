@@ -1,0 +1,81 @@
+body, html {
+  background-color: #092B40;
+  margin-top:4px;
+}
+
+#content-list {
+  padding: 0;
+  max-width: 80%;
+  margin: auto;
+  list-style: none;
+}
+
+#content-list > li {
+  padding: 8px;
+  margin-top: 8px;
+}
+
+.title {
+  font-weight: bold;
+  margin: 8px;
+}
+
+.description {
+  margin: 0 8px 8px 8px;
+}
+
+.button, .button:focus {
+  width: 100%;
+  border-style: none;
+  color: #3F3F40;
+  background-color: #E6E6E7;
+  min-height: 100px;
+  opacity: 1;
+  box-shadow: none;
+  outline: none;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button:active {
+  opacity: 0.6;
+  color: #3F3F40;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #3F3F40;
+  text-decoration: none;
+}
+
+.input {
+  max-width: 80%;
+  margin: auto;
+}
+
+.input-text {
+  border-radius: 0;
+  border-style: none;
+  margin: auto;
+  width: 90%;
+  display: inline;
+}
+
+.input-button, .input-button:focus {
+  border-radius: 0;
+  outline: none;
+  border-style: none;
+  color: #3F3F40;
+  width: 10%;
+  float: right;
+}
+
+.input-button:hover {
+  opacity: 0.8;
+}
+
+.input-button:active {
+  opacity: 0.6;
+  color: #3F3F40;
+}
