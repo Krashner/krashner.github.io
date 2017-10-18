@@ -139,6 +139,10 @@ a.nav-link:hover{
   vertical-align: middle;
 }
 
+.thumb-container{
+  padding : 5px !important;
+}
+
 .thumbnail {
   padding: 0px;
   background-color: #333;
