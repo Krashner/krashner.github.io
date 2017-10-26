@@ -169,7 +169,9 @@ Camera.prototype.drawColumn = function(column, ray, angle, li) {
         step.x,
         step.y
       );
-
+      //temp disable dynamic light, applies full illumination
+      levLight = 0;
+      
       if (levLight < 1)
         ctx.drawImage(
           texture.image,
