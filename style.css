@@ -1,9 +1,9 @@
 :root {
 	--background-body: white;
-	--background-about: #b3daff;
+	--background-about: white;
 	--background-skills: white;
 	--background-projects: white;
-	--background-contact: #e7e7e7;
+	--background-contact: white;
 	--page-min-width: 780px;
 }
 body {
@@ -70,8 +70,7 @@ a.nav-link:hover {
 }
 #contact-content {
 	width: 100%;
-	display: table;
-	background: var(--background-contact, white);
+	background-color: var(--background-contact, white);
 	margin: auto;
 }
 #form>hr {
@@ -95,19 +94,15 @@ a.nav-link:hover {
 #submit-container>input {
 	font-size: 2em;
 }
-@-moz-document url-prefix() {
-	#contact-content {
-		display: inline-flex !important;
-	}
-}
 #contact-content-row {
 	margin: auto;
-	display: table-cell;
 	vertical-align: middle;
 }
 .section {
 	min-height: 300px;
+	max-width: 1200px;
 	padding: 20px 50px 20px 50px;
+	margin: auto;
 }
 .section-title {
 	margin: 0px;
@@ -172,6 +167,7 @@ a.nav-link:hover {
 #projects-content {
 	background-color: var(--background-projects, white);
 }
+#project-thumbnails {}
 #thumbnail-grid {
 	text-align: -webkit-center;
 	width: fit-content;
@@ -187,6 +183,7 @@ a.nav-link:hover {
 	margin: 10px;
 	width: 210px;
 	height: auto;
+	display: inline-block;
 }
 .thumbnail>p {
 	padding: 9px;
