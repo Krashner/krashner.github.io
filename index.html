@@ -1,184 +1,252 @@
 <!DOCTYPE html>
 <html>
-   
 <head>
-  <meta charset="UTF-8">
-  <meta name="description" content="Portfolio">
-  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
-  <meta name="author" content="Justin">
-  <title>My Portfolio!</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="UTF-8">
+	<meta content="Portfolio" name="description">
+	<meta content="HTML,CSS,XML,JavaScript" name="keywords">
+	<meta content="Justin" name="author">
+	<title>Justin Buttrey || Web Developer</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+	<link href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet" type="text/css">
 </head>
-
-<body>
-  <nav class="navbar fixed-top navbar-inverse">
-    <div class="container-fluid text" id="navbar-container">
-      <div class="col"></div>
-      <a class="nav-link" href="#about">About</a>
-      <a class="nav-link" href="#projects">Projects</a>
-      <a class="nav-link" href="#contact">Contact</a>
-    </div>
-  </nav>
-
-  <div class="container-fluid" id="wrapper" data-spy="scroll" data-target=".navbar" data-offset="50">
-    <div class="row">
-      <div class="col">
-        <sections>
-          <div class="sections-dummy" id="dummy-top"></div>
-
-          <!-- About Section -->
-          <div class="row text-center section-title" id="about">
-            <hr class="section-title-hr" />
-            <div class="col-12 col-md-auto">
-              <h1 class=section-title-text>About</h1>
-            </div>
-          </div>
-
-          <div class="section" id="about-content">
-            <div class="row">
-              <div class="col-md-9">
-                <div class="about-text">
-                  <div class="row">
-                    <div class="col text-left">
-                      <h1>Justin Buttrey</h1>
-                      <p>Front end developer, part-time student and hobby game designer. I'm currently working through the FreeCodeCamp courses and I have experience with C#, Javascript, SQL, HTML and CSS.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-              <div class="col-md-3 text-center profile-picture-col">
-                <img id="profile-picture" src="images/profile_pic.jpg" alt="picture of me">
-              </div>
-            </div>
-            <div class="row link-buttons">
-              <div class="text-center">
-                <a href="https://github.com/krashner" target="_blank"><button class="btn btn-primary vertical-btn"><i class="fab fa-github" aria-hidden="true"></i> GitHub</button></a>
-                <a href="https://www.linkedin.com/in/justinbuttrey" target="_blank"><button class="btn btn-primary vertical-btn"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</button></a>
-                <a href="https://www.freecodecamp.com/krashner" target="_blank"><button class="btn btn-primary vertical-btn"><i class="fab fa-free-code-camp" aria-hidden="true"></i> FreeCodeCamp</button></a>
-                <a href="krashner.github.io/files/Justin_Buttrey_Resume.pdf" target="_blank"><button class="btn btn-primary vertical-btn"><i class="fas fa-file-alt" aria-hidden="true"></i> Resume</button></a>
-               </div>
-            </div>
-          </div>
-
-          <!-- Projects Section -->
-          <div class="row text-center section-title" id="projects">
-            <hr class="section-title-hr" />
-            <div class="col-12 col-md-auto">
-              <h1 class="section-title-text">Projects</h1>
-            </div>
-          </div>
-
-          <div class="section">
-            <div class="container-fluid">
-              <!-- First Row -->
-              <div class="row">
-                <div class="col thumb-container">
-                  <div class="thumbnail">
-                    <div class="portfolio-img-bg">
-                      <a href="https://github.com/Krashner/Projects" target="_blank"><img class="portfolio-img" src="images/thumbnail-gh.jpg" alt="GitHub link"></a>
-                    </div>
-                    <p class="figure-caption">GitHub Mega Project</p>
-                  </div>
-                </div>
-                <div class="col thumb-container">
-                  <div class="thumbnail">
-                    <div class="portfolio-img-bg">
-                      <a href="http://www.oddrealms.com/" target="_blank"><img class="portfolio-img" src="images/thumbnail-or.jpg" alt="OddRealms link"></a>
-                    </div>
-                    <p class="figure-caption">Open world game project</p>
-                  </div>
-                </div>
-                <div class="col thumb-container">
-                  <div class="thumbnail">
-                    <div class="portfolio-img-bg">
-                      <a href="http://jimbuttreyperformance.com/" target="_blank"><img class="portfolio-img" src="images/thumbnail-jb.jpg" alt="Jim Buttrey Performace link"></a>
-                    </div>
-                    <p class="figure-caption">Performace Engines Business Site</p>
-                  </div>
-                </div>
-              </div>
-              <!-- Second Row -->
-              <div class="row">
-                <div class="col thumb-container">
-                  <div class="thumbnail">
-                    <div class="portfolio-img-bg">
-                      <a href="projects/twitch" target="_blank"><img class="portfolio-img" src="images/thumbnail-twitch.jpg" alt="Twitch API link"></a>
-                    </div>
-                    <p class="figure-caption">Twitch API</p>
-                  </div>
-                </div>
-                <div class="col thumb-container">
-                  <div class="thumbnail">
-                    <div class="portfolio-img-bg">
-                      <a href="projects/wiki" target="_blank"><img class="portfolio-img" src="images/thumbnail-wiki.jpg" alt="Wiki Viewer link"></a>
-                    </div>
-                    <p class="figure-caption">Wiki Viewer</p>
-                  </div>
-                </div>
-                <div class="col thumb-container">
-                  <div class="thumbnail">
-                    <div class="portfolio-img-bg">
-                      <a href="projects/weather" target="_blank"><img class="portfolio-img" src="images/thumbnail-weather.jpg" alt="Weather App link"></a>
-                    </div>
-                    <p class="figure-caption">Weather App</p>
-                  </div>
-                </div>
-              </div>
-              <!-- Third Row -->
-              <div class="row">
-                <div class="col thumb-container">
-                  <div class="thumbnail">
-                    <div class="portfolio-img-bg">
-                      <a href="projects/quote" target="_blank"><img class="portfolio-img" src="images/thumbnail-quote.jpg" alt="Random Quote Generator link"></a>
-                    </div>
-                    <p class="figure-caption">Random Quote Generator</p>
-                  </div>
-                </div>
-                <div class="col thumb-container">
-                  <div class="thumbnail">
-                    <div class="portfolio-img-bg">
-                      <a href="projects/fps" target="_blank"><img class="portfolio-img" src="images/thumbnail-fps.jpg" alt="FPS link"></a>
-                    </div>
-                    <p class="figure-caption">FPS</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Contact Section -->
-          <div class="row text-center section-title" id="contact">
-            <hr class="section-title-hr" />
-            <div class="col-12 col-md-auto">
-              <h1 class="section-title-text">Contact</h1>
-            </div>
-          </div>
-
-          <div class="section" id="contact-content">
-
-            <div class="row" id="contact-content-row">
-              <div class="col text-center">
-                Email: jbuttrey@oddrealms.com
-              </div>
-
-              <div class="col text-center">
-                <a href="https://github.com/krashner" target="_blank"><button class="btn btn-primary  vertical-btn"><i class="fab fa-github" aria-hidden="true"></i> GitHub</button></a>
-                <a href="https://www.linkedin.com/in/justinbuttrey" target="_blank"><button class="btn btn-primary vertical-btn"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</button></a>
-                <a href="https://www.freecodecamp.com/krashner" target="_blank"><button class="btn btn-primary  vertical-btn"><i class="fab fa-free-code-camp " aria-hidden="true"></i> FreeCodeCamp</button></a>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="sections-dummy" id="dummy-bottom"></div>
-        </sections>
-      </div>
-    </div>
-  </div>
+<body data-offset="50" data-spy="scroll" data-target="#navbar">
+	<nav class="navbar fixed-top navbar-inverse" data-spy="affix" id="navbar">
+		<div class="container-fluid text" id="navbar-container">
+			<ul class="nav nav-pills">
+				<li class="nav-item">
+					<a class="nav-link" href="#about">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#skills">Skills</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#projects">Projects</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contact">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container-fluid" id="wrapper">
+		<div class="row">
+			<div class="col">
+				<div class="sections-dummy" id="dummy-top"></div><!-- About Section -->
+				<div class="row text-center section-title" id="about">
+					<hr class="section-title-hr">
+					<div class="col-12 col-md-auto">
+						<h1 class="section-title-text">About</h1>
+					</div>
+				</div>
+				<div class="section" id="about-content">
+					<div class="row">
+						<div class="col-md-9">
+							<div class="about-text">
+								<div class="row">
+									<div class="col text-left">
+										<h1 id="about-h1">Justin Buttrey</h1>
+										<p>Front end developer, part-time student and hobby game designer. I'm currently working through the FreeCodeCamp courses and I have experience with C#, Javascript, SQL, HTML and CSS.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 text-center profile-picture-col"><img alt="picture of me" id="profile-picture" src="images/profile_pic.jpg"></div>
+					</div>
+					<div class="row link-buttons">
+						<div class="text-center">
+							<a href="https://github.com/krashner" target="_blank"><button class="btn btn-primary vertical-btn"><i aria-hidden="true" class="fab fa-github"></i> GitHub</button></a> <a href="https://www.linkedin.com/in/justinbuttrey" target="_blank"><button class="btn btn-primary vertical-btn"><i aria-hidden="true" class="fab fa-linkedin"></i> LinkedIn</button></a> <a href="https://www.freecodecamp.com/krashner" target="_blank"><button class="btn btn-primary vertical-btn"><i aria-hidden="true" class="fab fa-free-code-camp"></i> FreeCodeCamp</button></a> <a href="krashner.github.io/files/Justin_Buttrey_Resume.pdf" target="_blank"><button class="btn btn-primary vertical-btn"><i aria-hidden="true" class="fas fa-file-alt"></i> Resume</button></a>
+						</div>
+					</div>
+				</div><!-- Skills Section -->
+				<div class="row text-center section-title" id="skills">
+					<hr class="section-title-hr">
+					<div class="col-12 col-md-auto">
+						<h1 class="section-title-text">Technical Skills</h1>
+					</div>
+				</div>
+				<div class="col-12 col-md-auto" id="skills-content">
+					<hr>
+					<h1>Languages</h1>
+					<hr>
+					<div class="row">
+						<div class="icon text-center">
+							<i class="devicon-csharp-plain colored"></i>
+							<p>C#: Proficient</p>
+						</div>
+						<div class="icon text-center">
+							<i class="devicon-html5-plain colored"></i>
+							<p>HTML5: Proficient</p>
+						</div>
+						<div class="icon text-center">
+							<i class="devicon-css3-plain colored"></i>
+							<p>CSS3: Proficient</p>
+						</div>
+						<div class="icon text-center">
+							<i class="devicon-javascript-plain colored"></i>
+							<p>JavaScript: Proficient</p>
+						</div>
+						<div class="icon text-center">
+							<i class="devicon-java-plain colored"></i>
+							<p>Java: Some Experience</p>
+						</div>
+						<div class="icon text-center">
+							<i class="devicon-cplusplus-plain colored"></i>
+							<p>C++: Some Experience</p>
+						</div>
+						<div class="icon text-center">
+							<i class="devicon-python-plain colored"></i>
+							<p>Python: Some Experience</p>
+						</div>
+						<div class="icon text-center">
+							<i class="devicon-php-plain colored"></i>
+							<p>PHP: Some Experience</p>
+						</div>
+					</div>
+					<hr>
+					<h1>Libraries and Frameworks</h1>
+					<hr>
+					<div class="row">
+						<div class="icon text-center">
+							<i class="devicon-dot-net-plain colored"></i>
+							<p>.Net: Proficient</p>
+						</div>
+						<div class="icon text-center">
+							<i class="devicon-bootstrap-plain colored"></i>
+							<p>Bootstrap: Some Experience</p>
+						</div>
+						<div class="icon text-center">
+							<i class="devicon-jquery-plain-wordmark colored"></i>
+							<p>jQuery: Some Experience</p>
+						</div>
+						<div class="icon text-center">
+							<i class="devicon-react-plain colored"></i>
+							<p>React: Some Experience</p>
+						</div>
+						<div class="icon text-center">
+							<i class="devicon-angularjs-plain colored"></i>
+							<p>AngularJS: Some Experience</p>
+						</div>
+					</div>
+					<hr>
+					<h1>Toolsets</h1>
+					<hr>
+					<div class="row">
+						<div class="icon text-center">
+							<i class="devicon-visualstudio-plain colored"></i>
+							<p>Visual Studio: Proficient</p>
+						</div>
+						<div class="icon text-center">
+							<i class="devicon-git-plain colored"></i>
+							<p>Git: Proficient</p>
+						</div>
+						<div class="icon text-center">
+							<i class="devicon-github-plain colored"></i>
+							<p>GitHub: Proficient</p>
+						</div>
+					</div>
+					<hr>
+				</div><!-- Projects Section -->
+				<div class="row text-center section-title" id="projects">
+					<hr class="section-title-hr">
+					<div class="col-12 col-md-auto">
+						<h1 class="section-title-text">Projects</h1>
+					</div>
+				</div>
+				<div class="section" id="projects-content">
+					<div class="container-fluid" id="project-thumbnails">
+						<div id="thumbnail-grid">
+							<!-- First Row -->
+							<div class="row thumbnail-row">
+								<div class="thumbnail">
+									<div class="portfolio-img-bg">
+										<a href="https://github.com/Krashner/Projects" target="_blank"><img alt="GitHub link" class="portfolio-img" src="images/thumbnail-gh.jpg"></a>
+									</div>
+									<p class="figure-caption">GitHub Mega Project</p>
+								</div>
+								<div class="thumbnail">
+									<div class="portfolio-img-bg">
+										<a href="http://www.oddrealms.com/" target="_blank"><img alt="OddRealms link" class="portfolio-img" src="images/thumbnail-or.jpg"></a>
+									</div>
+									<p class="figure-caption">Open world game project</p>
+								</div>
+								<div class="thumbnail">
+									<div class="portfolio-img-bg">
+										<a href="http://jimbuttreyperformance.com/" target="_blank"><img alt="Jim Buttrey Performace link" class="portfolio-img" src="images/thumbnail-jb.jpg"></a>
+									</div>
+									<p class="figure-caption">Performace Engines Business Site</p>
+								</div>
+							</div><!-- Second Row -->
+							<div class="row thumbnail-row">
+								<div class="thumbnail">
+									<div class="portfolio-img-bg">
+										<a href="projects/twitch" target="_blank"><img alt="Twitch API link" class="portfolio-img" src="images/thumbnail-twitch.jpg"></a>
+									</div>
+									<p class="figure-caption">Twitch API</p>
+								</div>
+								<div class="thumbnail">
+									<div class="portfolio-img-bg">
+										<a href="projects/wiki" target="_blank"><img alt="Wiki Viewer link" class="portfolio-img" src="images/thumbnail-wiki.jpg"></a>
+									</div>
+									<p class="figure-caption">Wiki Viewer</p>
+								</div>
+								<div class="thumbnail">
+									<div class="portfolio-img-bg">
+										<a href="projects/weather" target="_blank"><img alt="Weather App link" class="portfolio-img" src="images/thumbnail-weather.jpg"></a>
+									</div>
+									<p class="figure-caption">Weather App</p>
+								</div>
+							</div><!-- Third Row -->
+							<div class="row thumbnail-row">
+								<div class="thumbnail">
+									<div class="portfolio-img-bg">
+										<a href="projects/quote" target="_blank"><img alt="Random Quote Generator link" class="portfolio-img" src="images/thumbnail-quote.jpg"></a>
+									</div>
+									<p class="figure-caption">Random Quote Generator</p>
+								</div>
+								<div class="thumbnail">
+									<div class="portfolio-img-bg">
+										<a href="projects/fps" target="_blank"><img alt="FPS link" class="portfolio-img" src="images/thumbnail-fps.jpg"></a>
+									</div>
+									<p class="figure-caption">FPS</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!-- Contact Section -->
+				<div class="row text-center section-title" id="contact">
+					<hr class="section-title-hr">
+					<div class="col-12 col-md-auto">
+						<h1 class="section-title-text">Contact</h1>
+					</div>
+				</div>
+				<div class="section" id="contact-content">
+					<div class="row" id="contact-content-row">
+						<div class="col text-center" id="form-container">
+							<form action="https://formspree.io/jbuttrey@oddrealms.com" class="form" id="form" method="post" name="form">
+								<input class="form" id="form-name" name="name" placeholder="Name" type="text">
+								<hr>
+								<input class="form" id="form-email" name="_replyto" placeholder="Email" type="email">
+								<hr>
+								<input class="form" id="form-phone" name="phone" placeholder="Phone Number" type="text">
+								<hr>
+								<textarea class="form" id="form-message" name="subject" placeholder="Message"></textarea>
+								<hr>
+								<div class="text-center" id="submit-container">
+									<input class="btn btn-primary vertical-btn" type="submit" value="Send">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="sections-dummy" id="dummy-bottom">
+					<div class="col text-center">
+						<a class="web-links" href="https://github.com/krashner" target="_blank"><i aria-hidden="true" class="fab fa-github"></i></a> <a class="web-links" href="https://www.linkedin.com/in/justinbuttrey" target="_blank"><i aria-hidden="true" class="fab fa-linkedin"></i></a> <a class="web-links" href="https://www.freecodecamp.com/krashner" target="_blank"><i aria-hidden="true" class="fab fa-free-code-camp"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
-
 </html>
