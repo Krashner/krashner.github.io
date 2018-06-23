@@ -73,8 +73,13 @@ a.nav-link:hover {
 	background-color: var(--background-contact, white);
 	margin: auto;
 }
+#form-container>hr {
+	border-top: 2px solid rgba(0, 0, 0, .2);
+	padding :5px;
+}
 #form>hr {
 	border-top: 2px solid rgba(0, 0, 0, .2);
+	padding :5px;
 }
 #form-container {
 	background-color: white;
@@ -85,7 +90,7 @@ a.nav-link:hover {
 }
 .form {
 	display: inline-block;
-	width: 90%;
+	width: 100%;
 	border: 0px;
 }
 #submit-container {
@@ -153,9 +158,14 @@ a.nav-link:hover {
 }
 #skills-content>h1 {
 	margin: 10px 0px 10px 0px;
+	font-weight : bold;
+}
+#skills-content>hr {
+	padding : 5px;
 }
 .icon {
 	margin: auto;
+	padding: 10px;
 }
 .icon>i {
 	font-size: 5em;
