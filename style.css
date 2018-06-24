@@ -1,9 +1,14 @@
 :root {
-	--background-body: white;
-	--background-about: white;
+	--background-body: #313339;
+	--color-body: white;
+	--background-about: #1791D2;
+	--color-about: #313339;
 	--background-skills: white;
-	--background-projects: white;
+	--color-skills: #1791D2;
+	--background-projects: #0576B8;
+	--color-projects: #313339;
 	--background-contact: white;
+	--color-contact: #1791D2;
 	--page-min-width: 780px;
 }
 body {
@@ -19,6 +24,12 @@ body {
 	padding: 0px;
 }
 #nav {}
+#nav-col{
+	display: flex;
+}
+#navbar-name{
+	color:white;
+}
 .navbar {
 	height: 75px;
 	padding: 0;
@@ -53,14 +64,22 @@ a.nav-link:hover {
 #about-content {
 	display: table;
 	width: 100%;
-	background: var(--background-about, white);
+	background-color: var(--background-about, white);
+	color: var(--color-about, white);
 }
 #about-h1 {
 	font-weight: bold;
 	font-size: 4em;
 }
+.about-hr
+{
+	border-top :2px solid var(--color-about, white);
+}
+.skills-hr{
+	border-top : 2px solid rgba(0,0,0,0.1);
+}
 .link-buttons {
-	display: table-row;
+	display: block;
 }
 .web-links {
 	font-size: 4em;
@@ -103,11 +122,14 @@ a.nav-link:hover {
 	margin: auto;
 	vertical-align: middle;
 }
+.section-col{
+	max-width: 1200px;
+	margin: auto;
+	padding: 20px 50px 20px 50px;
+}
 .section {
 	min-height: 300px;
-	max-width: 1200px;
-	padding: 20px 50px 20px 50px;
-	margin: auto;
+	width: 100%;
 }
 .section-title {
 	margin: 0px;
@@ -143,7 +165,7 @@ a.nav-link:hover {
 #profile-picture {
 	border-radius: 50%;
 	height: auto;
-	max-width: 200px;
+	max-width: 300px;
 }
 .profile-picture-col {
 	margin-bottom: 20px;
@@ -165,13 +187,13 @@ a.nav-link:hover {
 }
 .icon {
 	margin: auto;
-	padding: 10px;
+	max-width:100px;
 }
 .icon>i {
 	font-size: 5em;
 }
 .icon>p {
-	font-size: 20px;
+	font-size: 16px;
 	margin: 0;
 }
 #projects-content {
