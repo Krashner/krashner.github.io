@@ -182,7 +182,8 @@ a.nav-link:hover {
 	margin: 0px;
 	padding: 0 10px 0 10px;
 	display: inline-block;
-	background-color: #333;
+	background-color: #313339;
+	background-color: var(--background-section-title, #333);
 	position: sticky;
 	z-index: 1;
 }
