@@ -43,7 +43,8 @@
  .navbar {
      height: 75px;
      padding: 0;
-     min-width: var(--page-min-width, 780px);
+     width: 100%;
+     /*min-width: var(--page-min-width, 780px);*/
 }
  .col-xs{
      margin: auto;
@@ -141,7 +142,7 @@
 }
  #form-container {
      background-color: white;
-     width: 660px;
+     width: 80%;/* 660px;*/
      margin: auto;
      border-radius: 5px;
      padding: 10px;
