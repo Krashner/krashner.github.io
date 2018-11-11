@@ -1,12 +1,12 @@
 :root {
 	--color-body: white;
-	--color-about: #313339;
+	--color-about: white;
 	--color-skills: #1791D2;
 	--color-projects: #313339;
 	--color-contact: #1791D2;
 	--page-min-width: 780px;
 	--background-body: #28292F;
-	--background-about: white;
+	--background-about: #1791D2;
 	--background-skills: white;
 	--background-projects: #0576B8;
 	--background-contact: white;
@@ -82,7 +82,7 @@ a.nav-link:hover {
 	width: 100%;
 	background-color: #1791D2;
 	background-color: var(--background-about, white);
-	color: #313339;
+	color: white;
 	color: var(--color-about, white);
 }
 
