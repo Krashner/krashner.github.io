@@ -79,6 +79,12 @@
  .bg-dark {
      background-color: #28292f !important;
 }
+
+ #collapse-menu{
+	display: table;
+	background-color: #28292f !important;
+}
+
  @media (min-width: 530px) {
      .collapse {
          display: none;
