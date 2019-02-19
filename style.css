@@ -232,7 +232,7 @@
 }
  .section-title-hr {
      margin: 0;
-     border-width: 0.5vh;
+     border-top: 2px solid rgba(255, 255, 255, 1);
      position: relative;
      bottom: -1.25em;
      background-color: white;
