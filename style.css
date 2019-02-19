@@ -1,19 +1,17 @@
 :root {
      --color-body: white;
      --color-about: white;
-     --color-skills: #1791D2;
+     --color-skills: #337ab7;
      --color-projects: #313339;
-     --color-contact: #1791D2;
+     --color-contact: #337ab7;
      --page-min-width: 780px;
      --background-body: #28292F;
-     --background-about: #1791D2;
+     --background-about: #337ab7;
      --background-skills: white;
-     --background-projects: #1791D2;
-    /*#0576B8;
-     */
+     --background-projects: #337ab7;
      --background-certifications: white;
-     --background-contact: #1791D2;
-     --background-section-title: #313339;
+     --background-contact: #337ab7;
+     --background-section-title: #337ab7;
 }
  html{
      margin:0px;
@@ -115,8 +113,7 @@
 }
  #about-content {
      width: 100%;
-     background-color: #1791D2;
-     background-color: var(--background-about, white);
+     background-color: #337ab7;
      color: white;
      color: var(--color-about, white);
 }
@@ -143,12 +140,13 @@
      padding: 0px 10px 0px 10px;
      display: inline-block;
      width: 150px;
+     color: white;
 }
  #contact-content {
      width: 100%;
      color: white;
-     background-color: #1791D2;
-     background-color: var(--background-contact, #1791D2);
+     background-color: #337ab7;
+    ;
      margin: auto;
 }
  ::placeholder {
@@ -181,15 +179,15 @@
      margin: auto;
      border-radius: 5px;
      padding: 10px;
-     background-color: #1791D2;
-     background-color: var(--background-contact, #1791D2);
+     background-color: #337ab7;
+    ;
 }
  .form {
      display: inline-block;
      width: 100%;
      border: 0px;
-     background-color: #1791D2;
-     background-color: var(--background-contact, #1791D2);
+     background-color: #337ab7;
+    ;
      color: white;
 }
  #submit-container {
@@ -217,8 +215,7 @@
  .section-title {
      margin: 0px;
      padding: 2vh 5vw 2vh 5vw;
-     background-color: #313339;
-     background-color: var(--background-section-title, #333);
+     background-color: #337ab7;
      color: white;
      z-index: 1;
 }
@@ -226,8 +223,7 @@
      margin: 0px;
      padding: 0 10px 0 10px;
      display: inline-block;
-     background-color: #313339;
-     background-color: var(--background-section-title, #333);
+     background-color: #337ab7;
      position: sticky;
 }
  .section-title-hr {
@@ -238,9 +234,28 @@
      background-color: white;
      width: 100%;
 }
+ #skills {
+     background-color: white;
+     color: #555;
+}
+ #skills > div > h1{
+     background-color: white;
+}
+ #skills > hr{
+     border-top: 2px solid rgba(0, 0, 0, 0.2);
+}
+ #certifications {
+     background-color: white;
+     color: #555;
+}
+ #certifications > div > h1{
+     background-color: white;
+}
+ #certifications > hr{
+     border-top: 2px solid rgba(0, 0, 0, 0.2);
+}
  .sections-dummy {
-     background-color: #313339;
-     background-color: var(--background-section-title, #333);
+     background-color: #337ab7;
 }
  #dummy-top {
      padding: 75px 0px 0px 0px;
@@ -261,13 +276,11 @@
      width: 100%;
      padding: 20px;
      background-color: white;
-     background-color: var(--background-skills, white);
 }
  #certifications-content {
      width: 100%;
      padding: 20px;
      background-color: white;
-     background-color: var(--background-certifications, white);
 }
  #skills-content>h1 {
      margin: 10px 0px 10px 0px;
@@ -297,8 +310,7 @@
 }
  #projects-content {
      color: white;
-     background-color: #1791D2;
-     background-color: var(--background-projects, white);
+     background-color: #337ab7;
 }
  #thumbnail-grid {
      text-align: -webkit-center;
@@ -307,7 +319,6 @@
  .thumbnail {
      padding: 0px;
      background-color: #313339;
-     background-color: var(--background-section-title, #333);
      margin: 2em auto ;
      width : 14em;
 }
