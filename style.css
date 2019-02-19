@@ -51,13 +51,19 @@
      width: 100%;
 }
  #hamburger-menu {
-     background-color: #28292f !important;
+     background-color: #28292f;
 }
  .bg-dark {
      background-color: #28292f !important;
 }
- #collapse-menu{
-     display: table;
+ .collapse {
+     display: none;
+}
+ #hamburger-menu {
+     display: none;
+}
+ #collapse-menu {
+     display: none;
      background-color: #28292f !important;
 }
  #vertical-nav-pills {
@@ -123,7 +129,7 @@
  #about-p{
      padding: 10px;
 }
-.about-text{
+ .about-text{
      width: 100%;
 }
  .skills-hr {
@@ -200,6 +206,7 @@
      margin: auto;
      padding: 20px 50px 20px 50px;
      height: 100%;
+     max-width: 80%;
 }
  .section {
      min-height: 300px;
@@ -364,28 +371,22 @@
      #nav-column {
          margin: 0;
     }
-     .navbar {
-         height: 40px;
-    }
      .sections-dummy {
          padding-top: 40px;
     }
      #navbar-nameCol {
          display: none;
     }
-}
- @media (min-width: 768px) {
+     .section-col {
+         max-width: 100%;
+    }
      .collapse {
-         display: none;
+         display: block;
     }
      #hamburger-menu {
-         display: none;
+         display: flex;
     }
      #collapse-menu {
-         display: none;
-    }
-     .section-col {
-         max-width: 80%;
+         display: table;
     }
 }
- 
