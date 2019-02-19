@@ -240,7 +240,7 @@
      background-color: white;
 }
  #skills > hr{
-     border-top: 2px solid rgba(0, 0, 0, 0.2);
+     border-top: 2px solid rgba(0, 0, 0, 0.1);
 }
  #certifications {
      background-color: white;
@@ -250,7 +250,7 @@
      background-color: white;
 }
  #certifications > hr{
-     border-top: 2px solid rgba(0, 0, 0, 0.2);
+     border-top: 2px solid rgba(0, 0, 0, 0.1);
 }
  .sections-dummy {
      background-color: #337ab7;
